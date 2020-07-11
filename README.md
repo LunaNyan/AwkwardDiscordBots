@@ -1,2 +1,41 @@
-# DiscordDeathNote
-adds Death Note to your guild
+# WARNING
+**의식의 흐름대로 날려짰습니다**
+
+**테스트 안했습니다**
+
+**절대 켜지면 안되는 봇입니다**
+
+# 설치 방법
+
+## 컨픽 작성
+```
+3 # ----- CONFIGURATION -----
+4 bot_token = "" # Discord 개발자 센터에서 발급한 봇 토큰
+5 channel_id = 0 # 데스노트로 쓸 채널 ID
+6 # -------------------------
+```
+
+## 필요 구성요소 설치(Linux)
+```
+$ python3 -m pip install discord.py
+$ nano(또는 적절한 텍스트 에디터) deathnote.py
+(위 지침을 따라 컨픽 작성)
+$ python3 deathnote.py
+```
+
+# 사용 방법
+데스노트로 지정된 채널에서
+
+## 간단한 명령어
+`(유저 ID)` : 밴
+
+`(유저 ID) (사유)` : 적힌 사유로 밴
+
+## 다수 유저 밴 예시
+새 줄로 유저를 구분합니다.
+
+```
+(유저 ID)
+(유저 ID) (사유)
+...
+```
